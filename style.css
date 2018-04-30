@@ -1,0 +1,67 @@
+@font-face {
+font-family: 'Circular Std Black Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Circular Std Black Italic'), url('CircularStd-BlackItalic.woff') format('woff');
+}
+
+body {
+  animation: 10000ms ease-in infinite color-change;
+}
+
+@keyframes color-change {
+  0% {
+    background-color: teal;
+  }
+  20% {
+    background-color: gold;
+  }
+  40% {
+    background-color: mistyrose;
+  }
+  60% {
+    background-color: salmon;
+  }
+  80% {
+    background-color: seagreen;
+  }
+  100% {
+    background-color: teal;
+  }
+}
+
+
+body {
+  background-color: #6495ED ; /*blue*/
+  font-family: 'Circular Std Black Italic', sans-serif !important;
+  font-size: 100px !important;
+}
+.fill_melon {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url('melon.jpg');
+  height: 400px;
+}
+.fill_bread {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-image: url('bread.jpg');
+  height: 400px;
+}
+#main {
+  margin: auto;
+  margin-top: 7%;
+}
+#upper {
+  border: solid 5px #F08E7D; /*pink*/
+  margin: auto;
+  width: 90%;
+}
+#under {
+  border: solid 5px #F08E7D; /*pink*/
+  border-top: none;
+  margin: auto;
+  width: 90%;
+}
